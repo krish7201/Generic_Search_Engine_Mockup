@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adventure! Search</title>
+  
+  <!-- React and ReactDOM -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/react-is@18.3.1/umd/react-is.production.min.js"></script>
+  <!-- Babel for JSX transformation -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <!-- Bootstrap Stuff -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <link href="./css/bootstrap.min.css" rel="stylesheet"></link> 
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap-icons.css">
+
+    <style>
+      html, body, #bootstrap-overrides #root, #bootstrap-overrides .container-fluid {
+        height: 100%; /* Ensure the body takes the full height of the viewport */
+        width: 100%; /* Ensure the body takes the full height of the viewport */
+        margin: 0; /* Remove default margin */
+        padding: 0;
+      }
+
+      #bootstrap-overrides .container-fluid {
+        display: flex;
+        flex-direction: row; /* Align children horizontally */
+        height: 100%; /* Make it fill the height of the parent */
+      } 
+
+      #bootstrap-overrides h1, #bootstrap-overrides h2, #bootstrap-overrides h3, #bootstrap-overrides h4, #bootstrap-overrides h5, #bootstrap-overrides h6 {
+        margin-bottom: 0% !important;
+        text-align: center;
+        color: white;
+      }
+
+      #bootstrap-overrides main {
+        margin-left: 8rem;
+        margin-right: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+      }
+
+      #bootstrap-overrides #particles-js {
+        z-index: 0;
+      }
+
+      #bootstrap-overrides #name-title {
+        position: absolute;
+        transform: rotate(90deg);
+        color: transparent; /* Inner text color */
+        -webkit-text-stroke: 0.7px #ffffff; /* Outline color and thickness */
+        width: fit-content;
+        top: 6.25rem;
+        left: -25%;
+        margin-top: 0%;
+      }
+
+      #bootstrap-overrides #profile-picture {
+        position: absolute;
+        width: 4rem;
+        left: 25%;
+        border-radius: 100%;
+        align-content: center;
+        bottom: 2.5%;
+      }
+
+      #bootstrap-overrides footer p {
+        height: 0%;
+        color: white;
+        opacity: 0.9;
+        font-size: 0.8rem;
+        font-family: sans-serif;
+      }
+
+      #bootstrap-overrides footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+      }
+  </style>
+</head>
+<body id="bootstrap-overrides">
+  
+  <header>
+    <div class="input-group input-group-lg">
+      <span class="input-group-text" id="inputGroup-sizing-lg">Large</span>
+      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+    </div>
+  </header>
+
+  <main>
+  </main>
+
+  <footer>
+  </footer>
+
+</body>
+
+</html>
