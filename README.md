@@ -1,6 +1,6 @@
 ### Fake Search Engine example for mockup practice
 
-<img src="https://github.com/krish7201/generic-search-engine-mockup/blob/main/Favicon.png" height="50%" width="50%"></img>
+<img src="https://github.com/krish7201/generic-search-engine-mockup/blob/main/Assets/Favicon.png" height="50%" width="50%"></img>
 
 <img src="https://github.com/user-attachments/assets/336061b8-a391-473d-8c69-d664262a8696" height="50%" width="100%"></img>
 
