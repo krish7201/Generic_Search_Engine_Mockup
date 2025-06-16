@@ -1,5 +1,5 @@
 ### Fake Search Engine example for mockup practice
-
+Check out the Figma here: https://www.figma.com/design/aOHe0RiXpKQVTzEPy63l2A/Generic-Search-engine?m=auto&t=MeDEMWXETYQ9RGXI-6
 <img src="https://github.com/krish7201/Generic_Search_Engine_Mockup/blob/main/assets/Favicon.png" height="50%" width="50%"></img>
 
 <img src="https://github.com/user-attachments/assets/336061b8-a391-473d-8c69-d664262a8696" height="50%" width="100%"></img>
